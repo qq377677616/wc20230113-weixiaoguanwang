@@ -1,0 +1,52 @@
+.head-ifarm {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/bgimg.png);
+    .head-ifarm-text {
+        width: 10rem;
+        height: 10rem;
+        margin-left: 10rem;
+        padding-top: 5rem;
+        box-sizing: border-box;
+        .head-ifarm-text1 {
+            font-size: 31px;
+            font-family: FaktaGrotesk;
+            font-weight: 400;
+            color: #231815;
+            float: left;
+        }
+        .head-ifarm-text2 {
+            font-size: 31px;
+            font-family: FaktaGrotesk;
+            font-weight: 400;
+            color: #231815;
+            float: left;
+        }
+        .head-ifarm-text3 {
+            font-size: 12px;
+            font-family: FaktaGrotesk;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+    .head-ifarm-menu {
+        display: flex;
+        justify-content: space-between;
+        .head-ifarm-box {
+            font-size: 16px;
+            font-family: Source Han Sans CN;
+            font-weight: 400;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            float: left;
+            margin-left: 30px;
+            text-align: center;
+            line-height: 197px;
+        }
+        .active {
+            color: #fff;
+            background-color: #45423b;
+        }
+    }
+}

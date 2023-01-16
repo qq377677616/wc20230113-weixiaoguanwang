@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../beerSlider/BeerSlider.css">
+    <title>微笑再现 Smile track</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../ydcss/correctdemo.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-img">
+            <img src="../images/yd_demo.png" alt="">
+        </div>
+        <div class="different">
+            <div class="facedemo">
+                <div class="demo">
+                    <div class="facebox">
+                        <div>
+                            <img src="../images/yd_demoblack.png" alt="">
+                            <img src="../images/yd_demoblack.png" alt="">
+                        </div>
+                        <div class="face">圆脸</div>
+                        <div onclick="circular()">
+                            <img src="../images/yd_ljxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="diagnosis" id="face">
+                        <div onclick="closeInspect()" class="close">
+                            <img src="../images/test/close.png" alt="">
+                        </div>
+                        <div class="inspect">
+                            <div>诊前检查</div>
+                            <div>1.</div>
+                            <div>2.</div>
+                        </div>
+                        <div class="inspect">
+                            <div>诊前检查</div>
+                            <div>1.</div>
+                            <div>2.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="demo">
+                    <div class="facebox">
+
+                        <div>
+                            <img src="../images/yd_demoblack.png" alt="">
+                            <img src="../images/yd_demoblack.png" alt="">
+                        </div>
+                        <div class="face">长型脸</div>
+                        <div onclick="circular2()">
+                            <img src="../images/yd_ljxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="diagnosis" id="face2">
+                        <div onclick="closeInspect2()" class="close">
+                            <img src="../images/test/close.png" alt="">
+                        </div>
+                        <div class="inspect">
+                            <div>诊前检查</div>
+                            <div>1.</div>
+                            <div>2.</div>
+                        </div>
+                        <div class="inspect">
+                            <div>诊前检查</div>
+                            <div>1.</div>
+                            <div>2.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="demo">
+                    <div class="facebox">
+                        <div>
+                            <img src="../images/yd_demoblack.png" alt="">
+                            <img src="../images/yd_demoblack.png" alt="">
+                        </div>
+                        <div class="face">方型脸</div>
+                        <div onclick="circular3()">
+                            <img src="../images/yd_ljxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="diagnosis" id="face3">
+                        <div onclick="closeInspect3()" class="close">
+                            <img src="../images/test/close.png" alt="">
+                        </div>
+                        <div class="inspect">
+                            <div>诊前检查</div>
+                            <div>1.</div>
+                            <div>2.</div>
+                        </div>
+                        <div class="inspect">
+                            <div>诊前检查</div>
+                            <div>1.</div>
+                            <div>2.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="demo">
+                    <div class="facebox">
+                        <div>
+                            <img src="../images/yd_demoblack.png" alt="">
+                            <img src="../images/yd_demoblack.png" alt="">
+                        </div>
+                        <div class="face">国字脸</div>
+                        <div onclick="circular4()">
+                            <img src="../images/yd_ljxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="diagnosis2" id="face4">
+                        <div onclick="closeInspect4()" class="close">
+                            <img src="../images/test/close.png" alt="">
+                        </div>
+                        <div class="inspect">
+                            <div>诊前检查</div>
+                            <div>1.</div>
+                            <div>2.</div>
+                        </div>
+                        <div class="inspect">
+                            <div>诊前检查</div>
+                            <div>1.</div>
+                            <div>2.</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="correctdemo">
+            <div class="correctdemo-img">
+                <img src="../images/correrdemo.png" />
+            </div>
+            <div class="correctdemo-text">
+                点击各适应症查看简介
+            </div>
+            <div class="correctdemo-tooth">
+                <div class="correctdemo-tooth-demo active" id="demo1" data-img1="../images/index_banner2.png"
+                    data-img2="../images/toothdemo.png" onclick="change('demo1')">
+                    <div>
+                        <img src="../images/0.png" />
+                        <p>牙齿拥挤</p>
+                    </div>
+                </div>
+                <div class="correctdemo-tooth-demo demo2" id="demo2" data-img1="../images/index_banner2.png"
+                    data-img2="../images/toothdemo.png" onclick="change('demo2')">
+                    <div>
+                        <img src="../images/1.png" /> 深覆盖
+                    </div>
+                </div>
+                <div class="correctdemo-tooth-demo " id='demo3' data-img1="../images/index_banner2.png"
+                    data-img2="../images/toothdemo.png" onclick="change('demo3')">
+                    <div>
+                        <img src="../images/2.png" /> 前牙反颌
+                    </div>
+                </div>
+                <div class="correctdemo-tooth-demo demo4" id='demo4' data-img1="../images/index_banner2.png"
+                    data-img2="../images/toothdemo.png" onclick="change('demo4')">
+                    <div>
+                        <img src="../images/3.png" /> 牙齿稀疏
+                    </div>
+                </div>
+                <div class="correctdemo-tooth-demo demo5" id='demo5' data-img1="../images/index_banner2.png"
+                    data-img2="../images/toothdemo.png" onclick="change('demo5')">
+                    <div>
+                        <img src="../images/4.png" /> 间隙过大
+                    </div>
+                </div>
+                <div class="correctdemo-tooth-demo demo6" id='demo6' data-img1="../images/index_banner2.png"
+                    data-img2="../images/toothdemo.png" onclick="change('demo6')">
+                    <div>
+                        <img src="../images/5.png" /> 开颌
+                    </div>
+                </div>
+                <div class="correctdemo-tooth-demo demo7" id='demo7' data-img1="../images/index_banner2.png"
+                    data-img2="../images/toothdemo.png" onclick="change('demo7')">
+                    <div>
+                        <img src="../images/6.png" /> 深覆颌
+                    </div>
+                </div>
+                <div class="correctdemo-tooth-demo demo8" id='demo8' data-img1="../images/index_banner2.png"
+                    data-img2="../images/toothdemo.png" onclick="change('demo8')">
+                    <div>
+                        <img src="../images/7.png" /> 局部开颌
+                    </div>
+                </div>
+                <div class="correctdemo-tooth-demo demo9" id='demo9' data-img1="../images/index_banner2.png"
+                    data-img2="../images/toothdemo.png" onclick="change('demo9')">
+                    <div>
+                        <img src="../images/8.png" /> 磨牙反颌
+                    </div>
+                </div>
+                <div class="correctdemo-tooth-demo demo10" id='demo10' data-img1="../images/index_banner2.png"
+                    data-img2="../images/toothdemo.png" onclick="change('demo10')">
+                    <div>
+                        <img src="../images/9.png" /> 反颌
+                    </div>
+                </div>
+                <div class="correctdemo-tooth-demo demo11" id='demo11' data-img1="../images/index_banner2.png"
+                    data-img2="../images/toothdemo.png" onclick="change('demo11')">
+                    <div>
+                        <img src="../images/10.png" /> 中线偏斜
+                    </div>
+                </div>
+                <div class="correctdemo-tooth-demo demo12" id='demo12' data-img1="../images/index_banner2.png"
+                    data-img2="../images/toothdemo.png" onclick="change('demo12')">
+                    <div>
+                        <img src="../images/11.png" /> 颊向错位
+                    </div>
+                </div>
+            </div>
+            <div class="correctdemo-demo">
+                <div class="correctdemo-demo-le">
+                    <div class="correctdemo-demo-le-top">
+                        <div id="slider2" class="beer-slider" data-beer-label="before">
+                            <img id="slider-img1" src="../images/index_banner2.png" alt="">
+                            <div class="beer-reveal" data-beer-label="after">
+                                <img id="slider-img2" src="../images/toothdemo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="correctdemo-demo-le-top" id="correctdemo-demo-le-top-img1">
+                        <img src="../images/demo_linner.png" alt="">
+                        <div>
+							<img src="../images/toothdemo.png" alt="">
+                        </div>
+                        <div>
+							<img src="../images/toothdemo.png" alt="">
+                        </div>
+                    </div> -->
+                    <div class="correctdemo-demo-le-bottom" onclick="checkxq()">
+                        <img src="../images/toothxq.png" alt="">
+                    </div>
+                </div>
+                <div class="correctdemo-demo-ri tooth1">
+                    <h2>诊前检查 </h2>
+                    <p>1.主诉：</p>
+                    <p>2.模型检查</p>
+                    <h2>治疗计划</h2>
+                    <p>1. </p>
+                    <p>2.</p>
+                    <h2>矫治周期</h2>
+                    <p>******</p>
+                </div>
+                <div class="correctdemo-demo-ri tooth2">
+                    <h2>诊前检查 </h2>
+                    <p>1.主诉：12123123</p>
+                    <p>2.模型检查</p>
+                    <h2>治疗计划</h2>
+                    <p>1. </p>
+                    <p>2.</p>
+                    <h2>矫治周期</h2>
+                    <p>******</p>
+                </div>
+                <div class="correctdemo-demo-ri tooth3">
+                    <h2>诊前检查 </h2>
+                    <p>1.主诉：1212313111</p>
+                    <p>2.模型检查</p>
+                    <h2>治疗计划</h2>
+                    <p>1. </p>
+                    <p>2.</p>
+                    <h2>矫治周期</h2>
+                    <p>******</p>
+                </div>
+                <div class="correctdemo-demo-ri tooth4">
+                    <h2>诊前检查 </h2>
+                    <p>1.主诉：121212</p>
+                    <p>2.模型检查</p>
+                    <h2>治疗计划</h2>
+                    <p>1. </p>
+                    <p>2.</p>
+                    <h2>矫治周期</h2>
+                    <p>******</p>
+                </div>
+                <div class="correctdemo-demo-ri tooth5">
+                    <h2>诊前检查 </h2>
+                    <p>1.主诉：123333</p>
+                    <p>2.模型检查</p>
+                    <h2>治疗计划</h2>
+                    <p>1. </p>
+                    <p>2.</p>
+                    <h2>矫治周期</h2>
+                    <p>******</p>
+                </div>
+                <div class="correctdemo-demo-ri tooth6">
+                    <h2>诊前检查 </h2>
+                    <p>1.主诉：12</p>
+                    <p>2.模型检查</p>
+                    <h2>治疗计划</h2>
+                    <p>1. </p>
+                    <p>2.</p>
+                    <h2>矫治周期</h2>
+                    <p>******</p>
+                </div>
+                <div class="correctdemo-demo-ri tooth7">
+                    <h2>诊前检查 </h2>
+                    <p>1.主诉：124444</p>
+                    <p>2.模型检查</p>
+                    <h2>治疗计划</h2>
+                    <p>1. </p>
+                    <p>2.</p>
+                    <h2>矫治周期</h2>
+                    <p>******</p>
+                </div>
+                <div class="correctdemo-demo-ri tooth8">
+                    <h2>诊前检查 </h2>
+                    <p>1.主诉：12</p>
+                    <p>2.模型检查</p>
+                    <h2>治疗计划</h2>
+                    <p>1. </p>
+                    <p>2.</p>
+                    <h2>矫治周期</h2>
+                    <p>******</p>
+                </div>
+                <div class="correctdemo-demo-ri tooth9">
+                    <h2>诊前检查 </h2>
+                    <p>1.主诉：12</p>
+                    <p>2.模型检查</p>
+                    <h2>治疗计划</h2>
+                    <p>1. </p>
+                    <p>2.</p>
+                    <h2>矫治周期</h2>
+                    <p>******</p>
+                </div>
+                <div class="correctdemo-demo-ri tooth10">
+                    <h2>诊前检查 </h2>
+                    <p>1.主诉：12</p>
+                    <p>2.模型检查</p>
+                    <h2>治疗计划</h2>
+                    <p>1. </p>
+                    <p>2.</p>
+                    <h2>矫治周期</h2>
+                    <p>******</p>
+                </div>
+                <div class="correctdemo-demo-ri tooth11">
+                    <h2>诊前检查 </h2>
+                    <p>1.主诉：12</p>
+                    <p>2.模型检查</p>
+                    <h2>治疗计划</h2>
+                    <p>1. </p>
+                    <p>2.</p>
+                    <h2>矫治周期</h2>
+                    <p>******</p>
+                </div>
+                <div class="correctdemo-demo-ri tooth12">
+                    <h2>诊前检查 </h2>
+                    <p>1.主诉：12</p>
+                    <p>2.模型检查</p>
+                    <h2>治疗计划</h2>
+                    <p>1. </p>
+                    <p>2.</p>
+                    <h2>矫治周期</h2>
+                    <p>******</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="phonefooter">
+            <div class="phonefooter-le">
+                <div class="phonefooter-le-head">
+                    <img src="../images/index_smiletrack.png" alt="">
+                </div>
+                <div class="phonefooter-le-bottom">
+                    <img src="../images/test/number.png" class="number" alt="">
+                </div>
+            </div>
+            <div class="phonefooter-ri">
+                <div>
+                    <div class="phonefooter-ri-box-head">
+                        <img src="../images/wx_img.png" alt="">
+                    </div>
+                    <div class="phonefooter-ri-box-bottom" onclick="showErweima1()">
+                        <img src="../images/qrcode/weixin.png" alt="">
+                    </div>
+                    <div id="ewimg1">
+                        <img src="../images/qrcode/weixin.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="phonefooter-ri-box-head">
+                        <img src="../images/dy_img.png" alt="">
+                    </div>
+                    <div class="phonefooter-ri-box-bottom" onclick="showErweima2()">
+                        <img src="../images/qrcode/douyin.png" alt="">
+
+                    </div>
+                    <div id="ewimg2">
+                        <img src="../images/qrcode/douyin.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="phonefooter-ri-box-head">
+                        <img src="../images/wb_img.png" alt="">
+                    </div>
+                    <div class="phonefooter-ri-box-bottom" onclick="showErweima3()">
+                        <img src="../images/qrcode/weibo.png" alt="">
+                    </div>
+                    <div id="ewimg3">
+                        <img src="../images/qrcode/weibo.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="phonefooter-ri-box-head">
+                        <img src="../images/xhs_img.png" alt="">
+                    </div>
+                    <div class="phonefooter-ri-box-bottom" onclick="showErweima4()">
+                        <img src="../images/qrcode/xiaohongshu.png" alt="">
+                    </div>
+                    <div id="ewimg4">
+                        <img src="../images/qrcode/xiaohongshu.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="code" id="QR" onclick="code1()">
+            <div>
+                <img src="../images/qrcode/weixin.png" alt="" class="preservation" onClick="event.stopPropagation()">
+            </div>
+        </div>
+        <div class="code" id="tiktok" onclick="code2()">
+            <div>
+                <img src="../images/qrcode/douyin.png" alt="" class="preservation" onClick="event.stopPropagation()">
+            </div>
+        </div>
+        <div class="code" id="blog" onclick="code3()">
+            <div>
+                <img src="../images/qrcode/weibo.png" alt="" class="preservation" onClick="event.stopPropagation()">
+            </div>
+        </div>
+        <div class="code" id="redbook" onclick="code4()">
+            <div>
+                <img src="../images/qrcode/xiaohongshu.png" alt="" class="preservation"
+                    onClick="event.stopPropagation()">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="tabbar">
+        <div>
+            <a href="../index.html">
+                <img src="../images/yd_tabbarindexon.png" alt=""></a>
+        </div>
+        <div>
+            <a href="./about.html">
+                <img src="../images/yd_tabbarabout.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="./correct.html">
+                <img src="../images/yd_tabbarkeshi.png" alt=""></a>
+        </div>
+        <div>
+            <a href="./wisdom.html">
+                <img src="../images/yd_tabbartooth.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="./correctdemo.html">
+                <img src="../images/yd_tabbaranliactive.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="./test.html">
+                <img src="../images/yd_tabbartest.png" alt="">
+            </a>
+        </div>
+    </div>
+</body>
+<script src="../js/rem.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.js"></script>
+<script src="../js/swiper-bundle.min.js"></script>
+<script src="../js/ydindex.js"></script>
+<script src="../beerSlider/BeerSlider.js"></script>
+<script>
+    new BeerSlider(document.getElementById('slider'));
+    new BeerSlider(document.getElementById('slider2'));
+</script>
+
+<script>
+    // function checkxq(e) {
+    //     $(".tooth" + e).attr("style", "display:block;");
+    // }
+
+    function closeInspect() {
+        document.getElementById('face').style.display = 'none';
+    }
+
+    function circular() {
+        document.getElementById('face').style.display = 'block';
+    }
+
+    function closeInspect2() {
+        document.getElementById('face2').style.display = 'none';
+    }
+
+    function circular2() {
+        document.getElementById('face2').style.display = 'block';
+    }
+
+    function closeInspect3() {
+        document.getElementById('face3').style.display = 'none';
+    }
+
+    function circular3() {
+        document.getElementById('face3').style.display = 'block';
+    }
+
+    function closeInspect4() {
+        document.getElementById('face4').style.display = 'none';
+    }
+
+    function circular4() {
+        document.getElementById('face4').style.display = 'block';
+    }
+
+    function showErweima4() {
+        document.getElementById('redbook').style.display = 'block';
+    }
+
+    function showErweima3() {
+        document.getElementById('blog').style.display = 'block';
+    }
+
+    function showErweima2() {
+        document.getElementById('tiktok').style.display = 'block';
+    }
+
+    function showErweima1() {
+        // window.location.href = '../ydpages/weixin.html';
+        document.getElementById('QR').style.display = 'block';
+    }
+
+    function code1() {
+        document.getElementById('QR').style.display = 'none';
+    }
+
+    function code2() {
+        document.getElementById('tiktok').style.display = 'none';
+    }
+
+    function code3() {
+        document.getElementById('blog').style.display = 'none';
+    }
+
+    function code4() {
+        document.getElementById('redbook').style.display = 'none';
+    }
+
+    function mobilePcRedirect() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+        if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+
+        } else {
+            window.location.href = '../pages/correctdemo.html';
+        }
+    };
+    mobilePcRedirect()
+</script>
+<script src="../beerSlider/BeerSlider.js"></script>
+</script>
+
+</html>

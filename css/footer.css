@@ -1,0 +1,90 @@
+.footer-ifarm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-ifarm .footer-ifarm-tooth {
+  text-align: center;
+  width: 40.42rem;
+}
+
+.footer-ifarm .footer-ifarm-tooth img {
+  margin-top: 2rem;
+}
+
+.footer-ifarm .footer-ifarm-follow {
+  font-size: 1.33rem;
+  font-family: Source Han Sans CN;
+  font-weight: 800;
+  color: #43899F;
+  cursor: pointer;
+}
+
+.footer-ifarm .footer-ifarm-follow img {
+  margin-top: 1.8rem;
+  margin-bottom: 3.67rem;
+  margin-right: 30px;
+}
+
+.footer-ifarm .footer-ifarm-follow .phone {
+  font-size: 1.77rem;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #43899F;
+}
+
+.footer-ifarm .footer-ifarm-tooth2 {
+  padding-bottom: 8rem;
+  cursor: pointer;
+}
+
+.footer-ifarm .footer-ifarm-tooth2 div:nth-of-type(1) {
+  /* font-size: 1.33rem; */
+  font-size: .16rem;
+  font-family: Source Han Sans CN;
+  font-weight: 800;
+  color: #43899F;
+}
+
+
+.footer-ifarm .footer-ifarm-tooth2 div:nth-of-type(2) p {
+  /* font-size: 1.33rem; */
+  font-family: Source Han Sans CN;
+  /* font-weight: 300; */
+  color: #4F4F4F;
+  margin-bottom: 0.5rem;
+}
+
+.footer-ifarm .footer-ifarm-demo {
+  cursor: pointer;
+  padding-bottom: 1rem;
+  margin-right: 10rem;
+}
+
+.footer-ifarm .footer-ifarm-demo div:nth-of-type(1) {
+  /* font-size: 1.33rem; */
+  font-family: Source Han Sans CN;
+  font-weight: 800;
+  color: #43899F;
+}
+.footer-ifarm .footer-ifarm-tooth2 div:nth-of-type(2),
+.footer-ifarm .footer-ifarm-demo div:nth-of-type(2) {
+  margin-top: 2.25rem;
+  font-size: .16rem;
+}
+
+.footer-ifarm .footer-ifarm-demo div:nth-of-type(2) p {
+  /* font-size: 1.33rem; */
+  /* font-weight: 300; */
+  font-family: Source Han Sans CN;
+  color: #4F4F4F;
+  line-height: 2.6rem;
+}
+
+
+.footer-ifarm-follow div:nth-of-type(1) {
+	font-family: Source Han Sans CN;
+	font-size: .16rem;
+	font-weight: 800;
+}

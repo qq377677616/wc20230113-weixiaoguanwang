@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微笑再现 Smile track</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../ydcss/corre.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="smile">
+            <img src="../images/smilesure.png" />
+        </div>
+        <div class="humansmile">
+            <img src="../images/humamsmile.png" />
+        </div>
+        <div class="system">
+            <img src="../images/co_smile.png" alt="">
+        </div>
+        <div class="vto">
+            <img src="../images/vto.png" />
+        </div>
+        <div class="humanhead">
+            <div class="humanhead-left">
+                <img src="../images/face.png" />
+            </div>
+            <div class="humanhead-right">
+                <img src="../images/head.png" />
+            </div>
+        </div>
+        <div class="feacbi">
+            <img src="../images/feacbi.png" alt="">
+        </div>
+        <div class="video">
+            <div>
+                <video autoplay loop poster="../images/test/mask1.png" id="vision1" onclick="playVideo1()">
+                    <source src="../images/facebi_1.mp4" class="videoBg">
+                    <!-- muted -->
+                </video>
+            </div>
+            <div>
+                <video autoplay loop poster="../images/test/mask2.png" id="vision2" onclick="playVideo2()">
+                    <source src="../images/facebi_2.mp4" class="videoBg">
+                </video>
+            </div>
+        </div>
+        <div class="edg">
+            <img src="../images/edg.png" />
+        </div>
+        <div class="video-2">
+            <div>
+                <video loop poster="../images/test/mask3.png" id="vision3" onclick="playVideo3()">
+                    <source src="../images/edg_1.mp4" class="videoBg">
+                </video>
+            </div>
+            <div>
+                <video loop poster="../images/test/mask4.png" id="vision4" onclick="playVideo4()">
+                    <source src="../images/edg_2.mp4" class="videoBg">
+                </video>
+                <!-- <img src="../images/test/pauseImg.png" class="pauseImg" /> -->
+            </div>
+        </div>
+        <div class="tj">
+            <img src="../images/tj.png" />
+        </div>
+        <div class="bring">
+            <div class="bring-head">
+                <div class="bring-head-textimg">
+                    <img src="../images/test/jiaoz.png" />
+                </div>
+                <div class="bring-head-humanimg">
+                    <div>
+                        <img src="../images/human21.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="bring-bottom">
+                <img src="../images/text_44.png" />
+            </div>
+        </div>
+        <div class="threed">
+            <div class="threed-head">
+                <img src="../images/3d.png" />
+            </div>
+            <div class="threed-bottom">
+                <img src="../images/test/man.png" />
+                <img src="../images/test/effect.png" />
+                <img src="../images/test/many.png" />
+            </div>
+            <div class="bijiao">
+                <img src="../images/test/data-title.png" />
+                <img src="../images/test/data.png" />
+            </div>
+            <div class="linchuang">
+                <img src="../images/linchuang.png" />
+            </div>
+            <div class="tooth-3">
+                <img src="../images/tooth3.png" />
+            </div>
+            <div class="linchuang-2">
+                <img src="../images/jiankong.png" />
+            </div>
+
+            <div class="linchuang-3">
+                <img src="../images/text_rw.png" />
+            </div>
+        </div>
+        <div>
+            <div class="phonefooter">
+                <div class="phonefooter-le">
+                    <div class="phonefooter-le-head">
+                        <img src="../images/index_smiletrack.png" alt="">
+                    </div>
+                    <div class="phonefooter-le-bottom">
+                        <img src="../images/test/number.png" class="number" alt="">
+                    </div>
+                </div>
+                <div class="phonefooter-ri">
+                    <div>
+                        <div class="phonefooter-ri-box-head">
+                            <img src="../images/wx_img.png" alt="">
+                        </div>
+                        <div class="phonefooter-ri-box-bottom" onclick="showErweima1()">
+                            <img src="../images/qrcode/weixin.png" alt="">
+                        </div>
+                        <div id="ewimg1">
+                            <img src="../images/qrcode/weixin.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="phonefooter-ri-box-head">
+                            <img src="../images/dy_img.png" alt="">
+                        </div>
+                        <div class="phonefooter-ri-box-bottom" onclick="showErweima2()">
+                            <img src="../images/qrcode/douyin.png" alt="">
+
+                        </div>
+                        <div id="ewimg2">
+                            <img src="../images/qrcode/douyin.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="phonefooter-ri-box-head">
+                            <img src="../images/wb_img.png" alt="">
+                        </div>
+                        <div class="phonefooter-ri-box-bottom" onclick="showErweima3()">
+                            <img src="../images/qrcode/weibo.png" alt="">
+                        </div>
+                        <div id="ewimg3">
+                            <img src="../images/qrcode/weibo.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="phonefooter-ri-box-head">
+                            <img src="../images/xhs_img.png" alt="">
+                        </div>
+                        <div class="phonefooter-ri-box-bottom" onclick="showErweima4()">
+                            <img src="../images/qrcode/xiaohongshu.png" alt="">
+                        </div>
+                        <div id="ewimg4">
+                            <img src="../images/qrcode/xiaohongshu.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="code" id="QR" onclick="code1()">
+            <div>
+                <img src="../images/qrcode/weixin.png" alt="" class="preservation" onClick="event.stopPropagation()">
+            </div>
+        </div>
+        <div class="code" id="tiktok" onclick="code2()">
+            <div>
+                <img src="../images/qrcode/douyin.png" alt="" class="preservation" onClick="event.stopPropagation()">
+            </div>
+        </div>
+        <div class="code" id="blog" onclick="code3()">
+            <div>
+                <img src="../images/qrcode/weibo.png" alt="" class="preservation" onClick="event.stopPropagation()">
+            </div>
+        </div>
+        <div class="code" id="redbook" onclick="code4()">
+            <div>
+                <img src="../images/qrcode/xiaohongshu.png" alt="" class="preservation"
+                    onClick="event.stopPropagation()">
+            </div>
+        </div>
+
+
+    </div>
+    <div class="tabbar">
+        <div>
+            <a href="../index.html">
+                <img src="../images/yd_tabbarindexon.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="./about.html">
+                <img src="../images/yd_tabbarabout.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="./correct.html">
+                <img src="../images/yd_tabbarkeshiactive.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="./wisdom.html">
+                <img src="../images/yd_tabbartooth.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="./correctdemo.html">
+                <img src="../images/yd_tabbaranli.png" alt="">
+            </a>
+        </div>
+        <div>
+            <a href="./test.html">
+                <img src="../images/yd_tabbartest.png" alt="">
+            </a>
+        </div>
+    </div>
+</body>
+<script src="../js/rem.js"></script>
+<script>
+    function playVideo1() {
+        document.getElementById("vision1").play();
+    }
+
+    function playVideo2() {
+        document.getElementById("vision2").play();
+    }
+
+    function playVideo3() {
+        document.getElementById("vision3").play();
+    }
+
+    function playVideo4() {
+        document.getElementById("vision4").play();
+    }
+
+    function showErweima4() {
+        document.getElementById('redbook').style.display = 'block';
+
+    }
+
+    function showErweima3() {
+        document.getElementById('blog').style.display = 'block';
+
+    }
+
+    function showErweima2() {
+        document.getElementById('tiktok').style.display = 'block';
+    }
+
+    function showErweima1() {
+        // window.location.href = '../ydpages/weixin.html';
+        document.getElementById('QR').style.display = 'block';
+    }
+
+    function code1() {
+        document.getElementById('QR').style.display = 'none';
+    }
+
+    function code2() {
+        document.getElementById('tiktok').style.display = 'none';
+    }
+
+    function code3() {
+        document.getElementById('blog').style.display = 'none';
+    }
+
+    function code4() {
+        document.getElementById('redbook').style.display = 'none';
+    }
+
+    function mobilePcRedirect() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+        if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+
+        } else {
+            window.location.href = '../pages/correct.html';
+        }
+    };
+    mobilePcRedirect()
+</script>
+
+</html>

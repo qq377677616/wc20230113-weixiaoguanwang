@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/test.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="container">
+            <iframe scrolling="no" frameborder="no" border="0" src="../components/head.html" width="100%" height="100%"></iframe>
+            <div class="test">
+                <div class="smilesure">
+                    <img src="../images/smilesure.png" />
+                    <div class="smilesure-humam">
+                        <div class="smilesure-humam-le" id="smilesure-humam-le">
+                            <img src="../images/semicircle.png" id="img" />
+                            <div class="smilesure-humam-le-text">
+                                <div class="text-img">
+                                    <img src="../images/you.png" />
+                                </div>
+                                <div class="img">
+                                    <img src="../images/starttest.png" onclick="go()" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="smilesure-humam-ri">
+                            <img src="../images/hunman3.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="face">
+                    <img src="../images/facechange.png" />
+                    <div class="change">
+                        <div class="demo demo1" data-num="1-1">
+                            <img src="../images/face_1.png" />
+
+                            <p>标准脸</p>
+                        </div>
+                        <div class="demo demo1" data-num="1-2">
+                            <img src="../images/face_2.png" />
+                            <p>圆脸</p>
+                        </div>
+                        <div class="demo demo1" data-num="1-3">
+                            <img src="../images/face_3.png" />
+                            <p>鹅蛋、瓜子脸</p>
+                        </div>
+                        <div class="demo demo1" data-num="1-4">
+                            <img src="../images/face_4.png" />
+                            <p>菱形、方形脸</p>
+                        </div>
+                        <div class="demo demo1" data-num="1-5">
+                            <img src="../images/face_5.png" />
+                            <div>长方形脸</div>
+                        </div>
+
+                    </div>
+                    <div class="next next1">
+                        <img src="../images/next.png" onclick="goTwo()" />
+                    </div>
+                </div>
+                <div class="linner">
+                    <img src="../images/linner.png" />
+                    <div class="change">
+                        <div class="demo demo2" data-num="2-1">
+                            <img src="../images/linner_1.png" />
+                            <p>标准脸</p>
+                        </div>
+                        <div class="demo demo2" data-num="2-2">
+                            <img src="../images/linner_2.png" />
+                            <p>圆脸</p>
+                        </div>
+                        <div class="demo demo2" data-num="2-3">
+                            <img src="../images/linner_3.png" />
+                            <p>鹅蛋、瓜子脸</p>
+                        </div>
+                        <div class="demo demo2" data-num="2-4">
+                            <img src="../images/linner_4.png" />
+                            <p>菱形、方形脸</p>
+                        </div>
+                        <div class="demo demo2" data-num="2-5">
+                            <img src="../images/linner_5.png" />
+                            <div>长方形脸</div>
+                        </div>
+
+                    </div>
+                    <div class="next next2">
+                        <img src="../images/next.png" onclick="goThree()" />
+                    </div>
+                </div>
+                <div class="smilelinner">
+                    <img src="../images/smilelinner.png" />
+                    <div class="change" data-num="3-1">
+                        <div class="demo demo3">
+                            <img src="../images/smilelinner_1.png" />
+
+                        </div>
+                        <div class="demo demo3" data-num="3-2">
+                            <img src="../images/smilelinner_2.png" />
+
+                        </div>
+                        <div class="demo demo3" data-num="3-3">
+                            <img src="../images/smilelinner_3.png" />
+
+                        </div>
+
+
+                    </div>
+                    <div class="next next3">
+                        <img src="../images/next.png" onclick="goFour()" />
+                    </div>
+                </div>
+                <div class="facequestion">
+                    <img src="../images/facequestion.png" />
+                    <div class="change">
+                        <div class="demo demo4" data-num="4-1">
+                            <img src="../images/facequestion_1.png" />
+                            <p>面部扭曲，左右不对称</p>
+                        </div>
+                        <div class="demo demo4" data-num="4-2">
+                            <img src="../images/facequestion_2.png" />
+                            <p>木偶纹 嘴角皱纹</p>
+                        </div>
+                        <div class="demo demo4" data-num="4-3">
+                            <img src="../images/facequestion_3.png" />
+                            <p>鼻唇沟</p>
+                        </div>
+                        <div class="demo demo4" data-num="4-4">
+                            <img src="../images/facequestion_4.png" />
+                            <p>老脸/疲惫的脸</p>
+                        </div>
+                        <div class="demo demo4" data-num="4-5">
+                            <img src="../images/facequestion_5.png" />
+                            <p>下颌关节疼痛</p>
+                        </div>
+                        <div class="demo demo4" data-num="4-6">
+                            <img src="../images/facequestion_6.png" />
+                            <p>肩膀和背部疼痛</p>
+                        </div>
+                        <div class="demo demo4" data-num="4-7">
+                            <img src="../images/facequestion_7.png" />
+                            <p>左右眼大小不一样</p>
+                        </div>
+                        <div class="demo demo4" data-num="4-8">
+                            <img src="../images/facequestion_8.png" />
+                            <p>总是用一边下巴吃饭</p>
+                        </div>
+
+                    </div>
+                    <div class="next next4">
+                        <img src="../images/next.png" onclick="goFive()" />
+                    </div>
+                </div>
+
+                <div class="like">
+                    <img src="../images/like.png" />
+                    <div class="change">
+                        <div class="demo demo5" data-num="5-1">
+                            <img src="../images/like_1.png" />
+
+                        </div>
+                        <div class="demo demo5" data-num="5-2">
+                            <img src="../images/like_2.png" />
+
+                        </div>
+                    </div>
+                    <div class="next next5">
+                        <img src="../images/next.png" onclick="goSeven()" />
+                    </div>
+                </div>
+                <div class="manyi">
+                    <img src="../images/manyi.png" />
+                    <div class="change">
+                        <div class="demo demo6" data-num="6-1">
+                            <img src="../images/manyi_1.png" />
+
+                        </div>
+                        <div class="demo demo6" data-num="6-2">
+                            <img src="../images/manyi_2.png" />
+
+                        </div>
+                        <div class="demo demo6" data-num="6-3">
+                            <img src="../images/manyi_3.png" />
+
+                        </div>
+                        <div class="demo demo6" data-num="6-4">
+                            <img src="../images/manyi_4.png" />
+
+                        </div>
+                        <div class="demo demo6" data-num="6-5">
+                            <img src="../images/manyi_5.png" />
+
+                        </div>
+
+                    </div>
+                    <div class="next next6">
+                        <img src="../images/next.png" onclick="goSix()" />
+                    </div>
+                </div>
+                <div class="jieguo">
+                    <img src="../images/x.png" />
+                    <div class="change">
+                        <div class="demo demo7" data-num="7-1">
+                            <img src="../images/jieguo_1.png" />
+
+                        </div>
+                        <div class="demo demo7" data-num="7-2">
+                            <img src="../images/jieguo_2.png" />
+
+                        </div>
+                        <div class="demo demo7" data-num="7-3">
+                            <img src="../images/jieguo_3.png" />
+
+                        </div>
+                    </div>
+                    <div class="next next7">
+                        <img src="../images/get.png" onclick="goEight()" />
+                    </div>
+                </div>
+                <div class="userinfo">
+                    <p>用于获取测试结果，并为您提供更优质的服务。</p>
+                    <div class="change">
+                        <div class="demo">
+                            <!-- <img src="../images/border.png" /> -->
+                            <input type="text" placeholder="姓名" id='inp1' />
+                        </div>
+                        <div class="demo">
+                            <!-- <img src="../images/border.png" /> -->
+                            <input type="text" placeholder="联系方式" id='inp2' />
+                        </div>
+                    </div>
+                    <div class="next next8">
+                        <img src="../images/usertj.jpg" onclick="goNine()" />
+                    </div>
+                </div>
+                <div class="q" id="q">
+
+                    <img src="../images/qtext.png" />
+
+                </div>
+            </div>
+            <div class="footer">
+                <iframe scrolling="no" frameborder="no" border="0" src="../components/footer.html" width='100%' height="100%"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.js"></script>
+<script src="../js/test.js">
+</script>
+<script>
+    function mobilePcRedirect() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+        if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+            window.location.href = '../ydpages/wisdom.html';
+        } else {
+
+        }
+    };
+    mobilePcRedirect()
+</script>
+
+</html>

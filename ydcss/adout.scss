@@ -1,0 +1,356 @@
+.container {
+    width: 7.5rem;
+    background-size: cover;
+    background: url(../images/yd_bgditu.png) no-repeat center;
+    .smilesure {
+        padding-top: 1.33rem;
+        width: 7.5rem;
+        text-align: center;
+        img {
+            width: 2.37rem;
+            height: 0.28rem;
+            margin-bottom: 0.69rem;
+        }
+        .smilesure-humam {
+            width: 100%;
+            img {
+                width: 100%;
+                height: 501px;
+            }
+        }
+    }
+    .toothmodel {
+        margin: 0 auto;
+        background: url(../images/yun.png)no-repeat center center;
+        .toothmodel-img {
+            text-align: center;
+            img {
+                width: 5.25rem;
+                height: 2.11rem;
+                margin-bottom: 0.30rem;
+            }
+        }
+        .toothmodel-text1 {
+            font-size: 0.19rem;
+            font-family: Source Han Sans CN;
+            font-weight: 300;
+            color: #43899F;
+            margin-bottom: 0.30rem;
+            margin-left: 0.69rem;
+        }
+        .toothmodel-text2 {
+            font-size: 0.19rem;
+            font-family: Source Han Sans CN;
+            font-weight: 300;
+            color: #3E3A39;
+            margin-bottom: 0.30rem;
+            margin-left: 0.69rem;
+        }
+        .toothmodel-text3 {
+            font-size: 0.14rem;
+            font-family: Source Han Sans CN;
+            font-weight: 300;
+            color: #3E3A39;
+            margin-bottom: 0.30rem;
+            margin-left: 0.69rem;
+        }
+        .toothmodel-text4 {
+            font-size: 0.19rem;
+            font-family: Source Han Sans CN;
+            font-weight: 300;
+            color: #43899F;
+            padding-bottom: 0.30rem;
+            margin-left: 0.69rem;
+        }
+    }
+    .socket {
+        width: 100%;
+        height: 2.27rem;
+        background: url('../images/yd_abouttooth.png');
+        background-size: cover;
+        .scoket-head {
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            box-sizing: border-box;
+            justify-content: space-between;
+            .scoket-head-demo {
+                width: 1.2rem;
+                height: 0.88rem;
+                margin-top: 0.8rem;
+                div:nth-of-type(1) {
+                    text-align: center;
+                    img {
+                        width: 0.38rem;
+                        height: 0.39rem;
+                    }
+                }
+                div:nth-of-type(2) {
+                    img {
+                        width: 1.2rem;
+                        height: 0.53rem;
+                    }
+                }
+            }
+        }
+    }
+    .smileagin {
+        width: 100%;
+        .smileagin-text {
+            position: relative;
+            font-size: 0.15rem;
+            font-family: Source Han Sans CN;
+            font-weight: 300;
+            color: #FFFFFF;
+            top: -1.5rem;
+            width: 4.33rem;
+            left: 0.5rem;
+        }
+        img {
+            width: 7.50rem;
+            height: 5.79rem;
+        }
+    }
+    .smilehumam {
+        width: 100%;
+        display: flex;
+        margin-top: -1.5rem;
+        .smilehumam-le {
+            width: 7.49rem;
+            height: 5.2rem;
+            text-align: center;
+            background: url(../images/yd_smilehuman.png) center center no-repeat;
+            background-size: cover;
+            div {
+                width: 2.47rem;
+                height: 2.33rem;
+                font-size: 0.16rem;
+                font-family: Source Han Sans CN;
+                font-weight: 300;
+                color: #3E3A39;
+                margin-top: 2.3rem;
+                margin-left: 0.46rem;
+                .text1 {
+                    text-indent: 2em;
+                    text-align: left;
+                }
+                .text2 {
+                    text-indent: 2em;
+                    text-align: left;
+                    margin-top: -0.5rem;
+                }
+            }
+        }
+    }
+    .banner {
+        width: 7.5rem;
+        height: 9.47rem;
+        .swiper {
+            .swiper-wrapper {
+                .swiper-slide {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    .demo {
+                        border-bottom: 1px solid;
+                        font-size: 0.13rem;
+                        font-family: Source Han Sans CN;
+                        font-weight: 300;
+                        color: #3E3A39;
+                        width: 2.2rem;
+                        padding-left: 0.1rem;
+                        padding-right: 0.1rem;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-items: center;
+                        text-align: center;
+                        padding-bottom: 0.5rem;
+                        div:nth-of-type(1) {
+                            width: 3.72rem;
+                            height: 2.00rem;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        div:nth-of-type(2) {
+                            width: 3.72rem;
+                            h2 {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+            .pos {
+                width: 3rem;
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                z-index: 999999;
+                top: -0.5rem;
+                left: 2.5rem;
+                div {
+                    .too {
+                        width: 0.3rem;
+                        height: 0.4rem;
+                        margin-top: -0.1rem;
+                    }
+                    img {
+                        width: 0.2rem;
+                        height: 0.2rem;
+                    }
+                }
+            }
+        }
+    }
+    .phonefooter {
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 1.6rem;
+        .phonefooter-le {
+            .phonefooter-le-head {
+                img {
+                    width: 1.7rem;
+                    height: 0.55rem;
+                }
+            }
+            .phonefooter-le-bottom {
+                font-size: 0.28rem;
+                font-family: Source Han Sans CN;
+                font-weight: 400;
+                color: #43899F;
+            }
+        }
+        .phonefooter-ri {
+            width: 3.42rem;
+            display: flex;
+            justify-content: space-between;
+            div {
+                width: 0.8rem;
+                height: 0.76rem;
+                text-align: center;
+                .phonefooter-ri-box-head {
+                    height: 0.35rem;
+                    img {
+                        width: 0.3rem;
+                        ;
+                    }
+                }
+                .phonefooter-ri-box-bottom {
+                    width: 0.8rem;
+                    height: 0.8rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                    background-color: #4F4F4F;
+                }
+                #ewimg4 {
+                    z-index: 88;
+                    display: none;
+                    width: 7.5rem;
+                    height: 15rem;
+                    position: relative;
+                    left: -6rem;
+                    top: -17rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                #ewimg3 {
+                    z-index: 88;
+                    display: none;
+                    width: 7.5rem;
+                    height: 15rem;
+                    position: relative;
+                    left: -5rem;
+                    top: -17rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                #ewimg2 {
+                    z-index: 88;
+                    display: none;
+                    width: 7.5rem;
+                    height: 15rem;
+                    position: relative;
+                    left: -4rem;
+                    top: -17rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                #ewimg1 {
+                    z-index: 88;
+                    display: none;
+                    width: 7.5rem;
+                    height: 15rem;
+                    position: relative;
+                    left: -3.5rem;
+                    top: -17rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.tabbar {
+    width: 7.5rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    div {
+        padding-top: 0.22rem;
+        padding-bottom: 0.16rem;
+        img {
+            width: 0.78rem;
+            height: 0.68rem;
+        }
+    }
+    div:nth-of-type(2) {
+        img {
+            width: 0.40rem;
+            height: 0.66rem;
+        }
+    }
+    div:nth-of-type(3) {
+        img {
+            width: 0.49rem;
+            height: 0.64rem;
+        }
+    }
+    div:nth-of-type(4) {
+        img {
+            width: 0.42rem;
+            height: 0.65rem;
+        }
+    }
+    div:nth-of-type(5) {
+        img {
+            width: 0.40rem;
+            height: 0.67rem;
+        }
+    }
+    div:nth-of-type(6) {
+        img {
+            width: 0.43rem;
+            height: 0.65rem;
+        }
+    }
+}

@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>Document</title>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            overflow-x: hidden;
+            overflow-y: auto;
+            position: relative;
+            height: 100rem;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .swiper {
+            width: 100%;
+            height: 100%;
+            background-color: #eff7f8;
+        }
+        
+        .swiper mySwiper {
+            background-color: #eff7f8;
+        }
+        
+        .swiper-wrapper {
+            background-color: #eff7f8;
+        }
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            background-color: #eff7f8;
+        }
+        
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            margin-top: -5px;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body style="font-size: 12px;">
+    <div class="box">
+        <!-- <img class="poa" src="../images/bgimg.png" alt=""> -->
+        <div class="container">
+            <iframe id="headif" font-size='0' scrolling="no" frameborder="no" border="0" src="./components/head.html" width="100%" height="100%"></iframe>
+            <!-- Swiper -->
+            <div class="banner">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/index_banner1.png" alt="">
+                        </div>
+                        <div class="swiper-slide"><img src="./images/inde_banner.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./images/inde_banner2.png" alt=""></div>
+
+                    </div>
+                    <img src="./images/ri.png " class="swiper-button-next"></img>
+                    <img src="./images/le.png" class="swiper-button-prev"></img>
+                </div>
+            </div>
+            <!-- 矫正 -->
+            <div class="correct">
+                <div class="correct-head">
+                    <img src="./images/moni.png" class="correct-head-text" id="a1">
+
+                    </img>
+                    <div class="correct-head-humanimg">
+                        <img src="./images/indexhuman_1.png">
+                        <div class="correct-head-bottomtext">
+                            <article>
+                                <div class="text-box" id="div1">
+                                    <div class="box1">01</div>
+                                    <div class="box2">方案制定更准确</div>
+                                    <div class="box3">利用3D所采集的数据和面部特征辅助正畸医师准确、高效的制定以美学为导向的正畸治疗方案，实现个性化精准医疗的目标。</div>
+                                </div>
+                                <div class="text-box " id="div2">
+                                    <div class="box1">02</div>
+                                    <div class="box2">数据分析更精准</div>
+                                    <div class="box3">高质量大数据样本库，1v1定制颜貌分析，实现个性化精准医疗的目标。 </div>
+                                </div>
+                                <div class="text-box " id="div3">
+                                    <div class="box1">03</div>
+                                    <div class="box2">医患沟通更顺畅</div>
+                                    <div class="box3">为医生与患者的沟通提供可视化的辅助工具，患者直观的了解正畸治疗后可能达到的模拟效果，从而达成顺畅且有效的医患沟通。</div>
+                                </div>
+                                <div class="text-box" id="div4">
+                                    <div class="box1">04</div>
+                                    <div class="box2">患者矫治无压力</div>
+                                    <div class="box3">将美可视化，让患者进行新颖、便捷、高效、无负担、有保障的治疗，轻松触达好看的笑容。</div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="correct-context">
+
+                <div class="correct-context-head">
+                    <img src="./images/weini.png" id='a2' />
+                </div>
+                <div class="correct-context-human">
+                    <article>
+                        <div class="correct-context-human-le" id="box1">
+                            <img src="./images/text_left.png" />
+                        </div>
+                        <div class="correct-context-human-img">
+                            <img src="./images/pepol.png" />
+                        </div>
+                        <div class="correct-context-human-ri" id="box2">
+                            <img src="./images/text_ri.png" />
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- 服务流程 -->
+            <div class="serve">
+                <div class="serve-head">
+                    <img src="./images/sever_1.png" id="a3" />
+                </div>
+                <div class="serve-bottom">
+                    <img src="./images/sever_2.png" />
+                </div>
+            </div>
+            <!-- 矫正案例 -->
+            <div class="correctdemo">
+                <div>
+                    <img src="./images/correrdemo.png" id="a4" />
+                </div>
+                <div class="correctdemo-text">
+                    点击各适应症查看简介
+                </div>
+                <div class="correctdemo-tooth">
+                    <div class="correctdemo-tooth-demo " id="demo" onclick="change1()">
+                        <div>
+                            <img src="./images/0.png" />
+                            <p>牙齿拥挤</p>
+                        </div>
+                    </div>
+                    <div class="correctdemo-tooth-demo demo2" id="demo2" onclick="change2()">
+                        <div>
+                            <img src="./images/1.png" /> 牙齿拥挤
+                        </div>
+                    </div>
+                    <div class="correctdemo-tooth-demo " id='demo3' onclick="change3()">
+                        <div>
+                            <img src="./images/2.png" /> 牙齿拥挤
+                        </div>
+                    </div>
+                    <div class="correctdemo-tooth-demo demo4" id='demo4' onclick="change4()">
+                        <div>
+                            <img src="./images/3.png" /> 牙齿拥挤
+                        </div>
+                    </div>
+                    <div class="correctdemo-tooth-demo demo5" id='demo5' onclick="change5()">
+                        <div>
+                            <img src="./images/4.png" /> 牙齿拥挤
+                        </div>
+                    </div>
+                    <div class="correctdemo-tooth-demo demo6" id='demo6' onclick="change6()">
+                        <div>
+                            <img src="./images/5.png" /> 牙齿拥挤
+                        </div>
+                    </div>
+                    <div class="correctdemo-tooth-demo demo7" id='demo7' onclick="change7()">
+                        <div>
+                            <img src="./images/6.png" /> 牙齿拥挤
+                        </div>
+                    </div>
+                    <div class="correctdemo-tooth-demo demo8" id='demo8' onclick="change8()">
+                        <div>
+                            <img src="./images/7.png" /> 牙齿拥挤
+                        </div>
+                    </div>
+                    <div class="correctdemo-tooth-demo demo9" id='demo9' onclick="change9()">
+                        <div>
+                            <img src="./images/8.png" /> 牙齿拥挤
+                        </div>
+                    </div>
+                    <div class="correctdemo-tooth-demo demo10" id='demo10' onclick="change10()">
+                        <div>
+                            <img src="./images/9.png" /> 牙齿拥挤
+                        </div>
+                    </div>
+                    <div class="correctdemo-tooth-demo demo11" id='demo11' onclick="change11()">
+                        <div>
+                            <img src="./images/10.png" /> 牙齿拥挤
+                        </div>
+                    </div>
+                    <div class="correctdemo-tooth-demo demo12" id='demo12' onclick="change12()">
+                        <div>
+                            <img src="./images/11.png" /> 牙齿拥挤
+                        </div>
+                    </div>
+                </div>
+                <div class="correctdemo-demo">
+                    <div class="correctdemo-demo-le">
+                        <div class="correctdemo-demo-le-top" id="correctdemo-demo-le-top-img1">
+                            <div class="img1">
+                                <img src="./images/demo_linner.png" />
+                            </div>
+
+                            <div class="div1">
+                                <img src="./images/toothdemo.png" alt="">
+                            </div>
+                            <div class="div2">
+                                <img src="./images/toothdemo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="correctdemo-demo-le-bottom">
+                            <img src="./images/toothxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="correctdemo-demo-ri">
+                        <h2>诊前检查 </h2>
+                        <p>1.主诉：</p>
+                        <p>2.模型检查</p>
+                        <h2>治疗计划</h2>
+                        <p>1. </p>
+                        <p>2.</p>
+                        <h2>矫治周期</h2>
+                        <p>******</p>
+                    </div>
+                </div>
+                <div class="correctdemo-demo2">
+                    <div class="correctdemo-demo-le">
+                        <div class="correctdemo-demo-le-top" id="correctdemo-demo-le-top-img1">
+                            <img src="./images/toothdemo.png" />
+
+                        </div>
+                        <div class="correctdemo-demo-le-bottom">
+                            <img src="./images/toothxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="correctdemo-demo-ri">
+                        <h2>诊前检查 </h2>
+                        <p>1.主诉：12123123</p>
+                        <p>2.模型检查</p>
+                        <h2>治疗计划</h2>
+                        <p>1. </p>
+                        <p>2.</p>
+                        <h2>矫治周期</h2>
+                        <p>******</p>
+                    </div>
+                </div>
+                <div class="correctdemo-demo3">
+                    <div class="correctdemo-demo-le">
+                        <div class="correctdemo-demo-le-top" id="correctdemo-demo-le-top-img1">
+                            <img src="./images/toothdemo.png" />
+
+                        </div>
+                        <div class="correctdemo-demo-le-bottom">
+                            <img src="./images/toothxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="correctdemo-demo-ri">
+                        <h2>诊前检查 </h2>
+                        <p>1.主诉：1212313111</p>
+                        <p>2.模型检查</p>
+                        <h2>治疗计划</h2>
+                        <p>1. </p>
+                        <p>2.</p>
+                        <h2>矫治周期</h2>
+                        <p>******</p>
+                    </div>
+                </div>
+                <div class="correctdemo-demo4">
+                    <div class="correctdemo-demo-le">
+                        <div class="correctdemo-demo-le-top" id="correctdemo-demo-le-top-img1">
+                            <img src="./images/toothdemo.png" />
+
+                        </div>
+                        <div class="correctdemo-demo-le-bottom">
+                            <img src="./images/toothxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="correctdemo-demo-ri">
+                        <h2>诊前检查 </h2>
+                        <p>1.主诉：121212</p>
+                        <p>2.模型检查</p>
+                        <h2>治疗计划</h2>
+                        <p>1. </p>
+                        <p>2.</p>
+                        <h2>矫治周期</h2>
+                        <p>******</p>
+                    </div>
+                </div>
+                <div class="correctdemo-demo5">
+                    <div class="correctdemo-demo-le">
+                        <div class="correctdemo-demo-le-top" id="correctdemo-demo-le-top-img1">
+                            <img src="./images/toothdemo.png" />
+
+                        </div>
+                        <div class="correctdemo-demo-le-bottom">
+                            <img src="./images/toothxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="correctdemo-demo-ri">
+                        <h2>诊前检查 </h2>
+                        <p>1.主诉：123333</p>
+                        <p>2.模型检查</p>
+                        <h2>治疗计划</h2>
+                        <p>1. </p>
+                        <p>2.</p>
+                        <h2>矫治周期</h2>
+                        <p>******</p>
+                    </div>
+                </div>
+                <div class="correctdemo-demo6">
+                    <div class="correctdemo-demo-le">
+                        <div class="correctdemo-demo-le-top" id="correctdemo-demo-le-top-img1">
+                            <img src="./images/toothdemo.png" />
+
+                        </div>
+                        <div class="correctdemo-demo-le-bottom">
+                            <img src="./images/toothxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="correctdemo-demo-ri">
+                        <h2>诊前检查 </h2>
+                        <p>1.主诉：12</p>
+                        <p>2.模型检查</p>
+                        <h2>治疗计划</h2>
+                        <p>1. </p>
+                        <p>2.</p>
+                        <h2>矫治周期</h2>
+                        <p>******</p>
+                    </div>
+                </div>
+                <div class="correctdemo-demo7">
+                    <div class="correctdemo-demo-le">
+                        <div class="correctdemo-demo-le-top" id="correctdemo-demo-le-top-img1">
+                            <img src="./images/toothdemo.png" />
+
+                        </div>
+                        <div class="correctdemo-demo-le-bottom">
+                            <img src="./images/toothxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="correctdemo-demo-ri">
+                        <h2>诊前检查 </h2>
+                        <p>1.主诉：124444</p>
+                        <p>2.模型检查</p>
+                        <h2>治疗计划</h2>
+                        <p>1. </p>
+                        <p>2.</p>
+                        <h2>矫治周期</h2>
+                        <p>******</p>
+                    </div>
+                </div>
+                <div class="correctdemo-demo8">
+                    <div class="correctdemo-demo-le">
+                        <div class="correctdemo-demo-le-top" id="correctdemo-demo-le-top-img1">
+                            <img src="./images/toothdemo.png" />
+
+                        </div>
+                        <div class="correctdemo-demo-le-bottom">
+                            <img src="./images/toothxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="correctdemo-demo-ri">
+                        <h2>诊前检查 </h2>
+                        <p>1.主诉：12</p>
+                        <p>2.模型检查</p>
+                        <h2>治疗计划</h2>
+                        <p>1. </p>
+                        <p>2.</p>
+                        <h2>矫治周期</h2>
+                        <p>******</p>
+                    </div>
+                </div>
+                <div class="correctdemo-demo9">
+                    <div class="correctdemo-demo-le">
+                        <div class="correctdemo-demo-le-top" id="correctdemo-demo-le-top-img1">
+                            <img src="./images/toothdemo.png" />
+
+                        </div>
+                        <div class="correctdemo-demo-le-bottom">
+                            <img src="./images/toothxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="correctdemo-demo-ri">
+                        <h2>诊前检查 </h2>
+                        <p>1.主诉：12</p>
+                        <p>2.模型检查</p>
+                        <h2>治疗计划</h2>
+                        <p>1. </p>
+                        <p>2.</p>
+                        <h2>矫治周期</h2>
+                        <p>******</p>
+                    </div>
+                </div>
+                <div class="correctdemo-demo10">
+                    <div class="correctdemo-demo-le">
+                        <div class="correctdemo-demo-le-top" id="correctdemo-demo-le-top-img1">
+                            <img src="./images/toothdemo.png" />
+
+                        </div>
+                        <div class="correctdemo-demo-le-bottom">
+                            <img src="./images/toothxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="correctdemo-demo-ri">
+                        <h2>诊前检查 </h2>
+                        <p>1.主诉：12</p>
+                        <p>2.模型检查</p>
+                        <h2>治疗计划</h2>
+                        <p>1. </p>
+                        <p>2.</p>
+                        <h2>矫治周期</h2>
+                        <p>******</p>
+                    </div>
+                </div>
+                <div class="correctdemo-demo11">
+                    <div class="correctdemo-demo-le">
+                        <div class="correctdemo-demo-le-top" id="correctdemo-demo-le-top-img1">
+                            <img src="./images/toothdemo.png" />
+
+                        </div>
+                        <div class="correctdemo-demo-le-bottom">
+                            <img src="./images/toothxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="correctdemo-demo-ri">
+                        <h2>诊前检查 </h2>
+                        <p>1.主诉：12</p>
+                        <p>2.模型检查</p>
+                        <h2>治疗计划</h2>
+                        <p>1. </p>
+                        <p>2.</p>
+                        <h2>矫治周期</h2>
+                        <p>******</p>
+                    </div>
+                </div>
+                <div class="correctdemo-demo12">
+                    <div class="correctdemo-demo-le">
+                        <div class="correctdemo-demo-le-top" id="correctdemo-demo-le-top-img1">
+                            <img src="./images/toothdemo.png" />
+
+                        </div>
+                        <div class="correctdemo-demo-le-bottom">
+                            <img src="./images/toothxq.png" alt="">
+                        </div>
+                    </div>
+                    <div class="correctdemo-demo-ri">
+                        <h2>诊前检查 </h2>
+                        <p>1.主诉：12</p>
+                        <p>2.模型检查</p>
+                        <h2>治疗计划</h2>
+                        <p>1. </p>
+                        <p>2.</p>
+                        <h2>矫治周期</h2>
+                        <p>******</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 塑颜矫正 -->
+            <div class="mouldcorrect">
+                <div class="mouldcorrect-head">
+                    <img src="./images/moudle.png" id="a5" />
+                </div>
+                <div class="mouldcorrect-bottom">
+                    <div id="divbox1" class="divbox">
+                        <img src="./images/human_0.png" />
+                        <div class="text">
+                            <p class="text1">LESS SAD</p>
+                            <p class="text2">改善愁容</p>
+                        </div>
+
+                    </div>
+                    <div id="divbox2" class="divbox">
+                        <img src="./images/human_1.png" />
+                        <div class="text">
+                            <p class="text1">YOUNGER</p>
+                            <p class="text2">脸更年轻</p>
+                        </div>
+                    </div>
+                    <div id="divbox3" class="divbox">
+                        <img src="./images/human_2.png" />
+                        <div class="text">
+                            <p class="text1">LESS TIRED</p>
+                            <p class="text2">改善倦容</p>
+                        </div>
+                    </div>
+                    <div id="divbox4" class="divbox">
+                        <img src="./images/human_3.png" />
+                        <div class="text">
+                            <p class="text1">LESS SAGGY</p>
+                            <p class="text2">改善松弛</p>
+                        </div>
+                    </div>
+                    <div id="divbox5" class="divbox">
+                        <img src="./images/human_4.png" />
+                        <div class="text">
+                            <p class="text1">SLIMMER</p>
+                            <p class="text2">脸更小巧</p>
+                        </div>
+                    </div>
+                    <div id="divbox6" class="divbox">
+                        <img src="./images/human_5.png" />
+                        <div class="text">
+                            <p class="text1">LESS SAD</p>
+                            <p class="text2">改善愁容</p>
+                        </div>
+                    </div>
+                    <div id="divbox7" class="divbox">
+                        <img src="./images/human_6.png" />
+                        <div class="text">
+                            <p class="text1">MORE ATTRACTIVE</p>
+                            <p class="text2">更有吸引力</p>
+                        </div>
+                    </div>
+                    <div id="divbox8" class="divbox">
+                        <img src="./images/human_7.png" />
+                        <div class="text">
+                            <p class="text1">MORE FEMININE</p>
+                            <p class="text2">更女人味</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 测试 -->
+            <div class="smiletest">
+
+                <div class="smiletest-humamimg">
+                    <img src="./images/humamtest.png" />
+                    <div class="smiletest-humamimg-box">
+                        <img class="smiletest-humamimg-box-img" src="./images/humamtest2.png" />
+                        <div>
+                            <img src="./images/testbtn.png" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <iframe scrolling="no" frameborder="no" border="0" src="./components/footer.html" width='100%' height="100%"></iframe>
+            </div>
+
+        </div>
+    </div>
+</body>
+<!-- Swiper JS -->
+<script src="./js/swiper-bundle.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.js"></script>
+<script src="./js/index.js"></script>
+<script type="text/javascript" src="js/anime.js"></script>
+<script>
+    function mobilePcRedirect() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == 'ipad';
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == 'iphone os';
+        var bIsMidp = sUserAgent.match(/midp/i) == 'midp';
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == 'rv:1.2.3.4';
+        var bIsUc = sUserAgent.match(/ucweb/i) == 'ucweb';
+        var bIsAndroid = sUserAgent.match(/android/i) == 'android';
+        var bIsCE = sUserAgent.match(/windows ce/i) == 'windows ce';
+        var bIsWM = sUserAgent.match(/windows mobile/i) == 'windows mobile';
+        if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+            window.location.href = './indexyd.html';
+        } else {}
+    }
+
+    mobilePcRedirect();
+</script>
+
+</html>

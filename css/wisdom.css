@@ -1,0 +1,149 @@
+.box {
+  overflow: hidden;
+}
+
+.box .container {
+  width: 1920px;
+  padding-bottom: 2rem;
+  min-width: 1600px;
+  background-size: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.box .container .smile {
+  text-align: center;
+}
+
+.box .container .smile img {
+  margin-top: 16.8rem;
+  margin-bottom: 17.4rem;
+}
+
+.box .container .materials {
+  display: flex;
+  width: 100%;
+  height: 72.92rem;
+}
+
+.box .container .materials .materials-le {
+  width: 1100px;
+  height: 100%;
+  position: relative;
+  left: -70rem;
+}
+
+.box .container .materials .materials-le #img {
+  width: 1300px;
+}
+
+.box .container .materials .materials-le .materials-le-box {
+  width: 45rem;
+  height: 29rem;
+  position: absolute;
+  top: 31.08rem;
+  left: 23rem;
+}
+
+.box .container .materials .materials-le div:nth-of-type(1) {
+  width: 45.25rem;
+  height: 15.25rem;
+}
+
+.box .container .materials .materials-le div:nth-of-type(2) {
+  width: 17.67rem;
+  height: 7rem;
+  display: flex;
+  margin-top: 6.33rem;
+}
+
+.box .container .materials .materials-le img {
+  width: 100%;
+  height: 100%;
+}
+
+.box .container .materials .materials-ri {
+  width: 50%;
+  height: 100%;
+  margin-left: -11rem;
+}
+
+.box .container .materials .materials-ri img {
+  width: 100%;
+  height: 100%;
+}
+
+.box .container .statistics {
+  width: 80%;
+  margin: 0rem auto;
+  background: no-repeat url(../images/yun.png) center center;
+}
+
+.box .container .statistics img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.box .container .statistics2 {
+  width: 80%;
+  margin: 0rem auto;
+  margin-top: 168px;
+}
+
+.box .container .statistics2 img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.box .container .wisdombuild {
+  width: 100%;
+  padding-bottom: 600px;
+}
+
+.box .container .wisdombuild .wisdombuild-head {
+  width: 100%;
+  height: 579px;
+  margin-top: -5px;
+  background-size: 100%;
+  text-align: center;
+  background: no-repeat url(../images/bgtooth.png);
+  background-size: cover;
+}
+
+.box .container .wisdombuild .wisdombuild-head img {
+  width: 80%;
+  margin: 5rem auto;
+  margin-top: 175px;
+  margin-bottom: 53px;
+}
+
+.box .container .wisdombuild .wisdombuild-head .box {
+  width: 105.5rem;
+  height: 59.42rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.box .container .wisdombuild .wisdombuild-head .box video {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.box .container .nohumam {
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  text-align: center;
+  margin-top: 111px;
+}
+
+.box .container .nohumam img {
+  width: 1145px;
+  margin: 0 auto;
+  height: 998px;
+}
+
+.box .container .footer {
+  margin-top: 95px;
+  height: 300px;
+}

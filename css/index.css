@@ -1,0 +1,630 @@
+@charset "UTF-8";
+
+div {
+	line-height: normal;
+}
+
+.box {
+  overflow: hidden;
+}
+
+.box .container {
+  width: 1920px;
+  min-width: 1600px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: url("../images/bgimg.png");
+  background-size: cover;
+}
+
+.box .container .banner {
+  width: 100%;
+  margin-top: -5px;
+}
+
+.box .container .banner .swiper {
+  margin-top: -5px;
+}
+
+.box .container .banner .swiper .swiper-wrapper {
+  width: 100%;
+}
+
+.box .container .banner .swiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 884px;
+}
+
+.box .container .banner .swiper .swiper-button-next {
+  right: 104px;
+}
+
+.box .container .banner .swiper .swiper-button-prev {
+  left: 104px;
+}
+
+.box .container .correct {
+  width: 1920px;
+  height: 1120px;
+}
+
+.box .container .correct .correct-head {
+  width: 100%;
+  height: 579px;
+  text-align: center;
+  background-image: url(../images//_编组_.png);
+}
+
+.box .container .correct .correct-head .correct-head-text {
+  margin: 160px 0;
+  width: 1424px;
+  height: 104px;
+}
+
+.box .container .correct .correct-head .correct-head-humanimg {
+  width: 100%;
+  height: 800px;
+}
+
+.box .container .correct .correct-head .correct-head-humanimg img {
+  width: 1265px;
+  height: 531px;
+}
+
+.box .container .correct .correct-head .correct-head-humanimg .correct-head-bottomtext {
+  margin: 1rem auto;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box .container .correct .correct-head .correct-head-humanimg .correct-head-bottomtext article {
+  display: flex;
+}
+
+.box .container .correct .correct-head .correct-head-humanimg .correct-head-bottomtext article .text-box {
+  opacity: 0;
+}
+
+.box .container .correct .correct-head .correct-head-humanimg .correct-head-bottomtext article .text-box .box1 {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.43rem;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #43899F;
+  float: left;
+  margin-top: -8px;
+  border-radius: 50%;
+  padding-top: -2rem;
+  padding-left: -5rem;
+  background-color: #ebf6f6;
+}
+
+.box .container .correct .correct-head .correct-head-humanimg .correct-head-bottomtext article .text-box .box2 {
+  width: 10.5rem;
+  float: left;
+  margin-left: 1rem;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #43899F;
+}
+
+.box .container .correct .correct-head .correct-head-humanimg .correct-head-bottomtext article .text-box .box3 {
+  margin-top: 25px;
+  float: left;
+  margin-left: 3rem;
+  width: 10.5rem;
+  font-size: 0.27rem;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  text-align: left;
+  color: #4F4F4F;
+}
+
+.box .container .correct-context {
+  width: 100%;
+  text-align: center;
+  margin-top: 296px;
+}
+
+.box .container .correct-context .correct-context-head {
+  width: 1450px;
+  height: 103px;
+  margin: 0 auto;
+}
+
+.box .container .correct-context .correct-context-head img {
+  width: 80%;
+}
+
+.box .container .correct-context .correct-context-human {
+  display: flex;
+  justify-content: space-around;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: 100% 100%;
+  background: no-repeat url(../images/紫色-背景.png) center center;
+  margin: 2rem auto;
+}
+
+.box .container .correct-context .correct-context-human article {
+  display: flex;
+  justify-content: space-around;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: 100% 100%;
+  background: no-repeat url(../images/紫色-背景.png) center center;
+  height: 800px;
+  margin: 2rem auto;
+}
+
+.box .container .correct-context .correct-context-human article .correct-context-human-le {
+  height: 800px;
+  opacity: 0;
+  left: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.box .container .correct-context .correct-context-human article .correct-context-human-le img {
+  width: 100%;
+}
+
+.box .container .correct-context .correct-context-human article .correct-context-human-img {
+  width: 750px;
+  height: 745px;
+  position: absolute;
+  background: url("../images/yd_ziyuan.png");
+  background-size: cover;
+}
+
+.box .container .correct-context .correct-context-human article .correct-context-human-img img {
+  width: 450px;
+}
+
+.box .container .correct-context .correct-context-human article .correct-context-human-ri {
+  opacity: 0;
+  height: 800px;
+  margin-right: 100px;
+  line-height: 81.58rem;
+  left: -50px;
+  position: relative;
+  z-index: 1;
+}
+
+.box .container .correct-context .correct-context-human article .correct-context-human-ri img {
+  width: 100%;
+}
+
+.box .container .serve {
+  width: 100%;
+  text-align: center;
+}
+
+.box .container .serve .serve-head {
+  margin-bottom: 76px;
+}
+
+.box .container .correctdemo {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.box .container .correctdemo .correctdemo-text {
+  margin: 2rem 0;
+  width: 100%;
+  font-size: 1.49rem;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: #4F4F4F;
+  margin-bottom: 134px;
+}
+
+.box .container .correctdemo .correctdemo-tooth {
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box .container .correctdemo .correctdemo-tooth .correctdemo-tooth-demo {
+  width: 16%;
+  height: 12rem;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.box .container .correctdemo .correctdemo-tooth .correctdemo-tooth-demo div {
+  width: 50%;
+  margin: 4rem auto;
+}
+
+.box .container .correctdemo .correctdemo-tooth .correctdemo-tooth-demo div img {
+  width: 100%;
+  opacity: 0.3;
+  margin-bottom: 10px;
+}
+
+.box .container .correctdemo .correctdemo-tooth .active {
+  width: 16%;
+  height: 12rem;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  background: #c7e6f5;
+}
+
+.box .container .correctdemo .correctdemo-tooth .active div {
+  width: 50%;
+  margin: 4rem auto;
+}
+
+.box .container .correctdemo .correctdemo-tooth .active div img {
+  width: 100%;
+  opacity: 0.3;
+  margin-bottom: 10px;
+}
+
+.box .container .correctdemo .correctdemo-demo {
+  margin-left: 20rem;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box .container .correctdemo .correctdemo-demo .correctdemo-demo-le .correctdemo-demo-le-top {
+  width: 386px;
+  height: 243px;
+  display: flex;
+  overflow: hidden;
+}
+
+.box .container .correctdemo .correctdemo-demo .correctdemo-demo-le .correctdemo-demo-le-top .img1 {
+  width: 47px;
+  height: 243px;
+  position: absolute;
+  left: 493px;
+  z-index: 99;
+}
+
+.box .container .correctdemo .correctdemo-demo .correctdemo-demo-le .correctdemo-demo-le-top .img1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.box .container .correctdemo .correctdemo-demo .correctdemo-demo-le .correctdemo-demo-le-top .div1 {
+  position: relative;
+  left: -193px;
+}
+
+.box .container .correctdemo .correctdemo-demo .correctdemo-demo-le .correctdemo-demo-le-top .div1 img {
+  width: 386px;
+  height: 243px;
+}
+
+.box .container .correctdemo .correctdemo-demo .correctdemo-demo-le .correctdemo-demo-le-top .div2 {
+  position: relative;
+  left: -193px;
+}
+
+.box .container .correctdemo .correctdemo-demo .correctdemo-demo-le .correctdemo-demo-le-top .div2 img {
+  width: 386px;
+  height: 243px;
+}
+
+.box .container .correctdemo .correctdemo-demo .correctdemo-demo-le .correctdemo-demo-le-bottom {
+  cursor: pointer;
+}
+
+.box .container .correctdemo .correctdemo-demo .correctdemo-demo-ri {
+  display: none;
+  width: 60%;
+}
+
+.box .container .correctdemo .correctdemo-demo .correctdemo-demo-ri {
+  width: 20%;
+  text-align: left;
+}
+
+.box .container .correctdemo .correctdemo-demo2 {
+  margin-left: 20rem;
+  width: 40%;
+  display: none;
+  justify-content: space-between;
+}
+
+.box .container .correctdemo .correctdemo-demo2 .correctdemo-demo-le .correctdemo-demo-le-bottom {
+  cursor: pointer;
+}
+
+.box .container .correctdemo .correctdemo-demo2 .correctdemo-demo-ri {
+  display: none;
+  width: 60%;
+}
+
+.box .container .correctdemo .correctdemo-demo2 .correctdemo-demo-ri {
+  width: 20%;
+  text-align: left;
+}
+
+.box .container .correctdemo .correctdemo-demo3 {
+  margin-left: 20rem;
+  width: 40%;
+  display: none;
+  justify-content: space-between;
+}
+
+.box .container .correctdemo .correctdemo-demo3 .correctdemo-demo-le .correctdemo-demo-le-bottom {
+  cursor: pointer;
+}
+
+.box .container .correctdemo .correctdemo-demo3 .correctdemo-demo-ri {
+  display: none;
+  width: 60%;
+}
+
+.box .container .correctdemo .correctdemo-demo3 .correctdemo-demo-ri {
+  width: 20%;
+  text-align: left;
+}
+
+.box .container .correctdemo .correctdemo-demo4 {
+  margin-left: 20rem;
+  width: 40%;
+  display: none;
+  justify-content: space-between;
+}
+
+.box .container .correctdemo .correctdemo-demo4 .correctdemo-demo-le .correctdemo-demo-le-bottom {
+  cursor: pointer;
+}
+
+.box .container .correctdemo .correctdemo-demo4 .correctdemo-demo-ri {
+  display: none;
+  width: 60%;
+}
+
+.box .container .correctdemo .correctdemo-demo4 .correctdemo-demo-ri {
+  width: 20%;
+  text-align: left;
+}
+
+.box .container .correctdemo .correctdemo-demo5 {
+  margin-left: 20rem;
+  width: 40%;
+  display: none;
+  justify-content: space-between;
+}
+
+.box .container .correctdemo .correctdemo-demo5 .correctdemo-demo-le .correctdemo-demo-le-bottom {
+  cursor: pointer;
+}
+
+.box .container .correctdemo .correctdemo-demo5 .correctdemo-demo-ri {
+  display: none;
+  width: 60%;
+}
+
+.box .container .correctdemo .correctdemo-demo5 .correctdemo-demo-ri {
+  width: 20%;
+  text-align: left;
+}
+
+.box .container .correctdemo .correctdemo-demo6 {
+  margin-left: 20rem;
+  width: 40%;
+  display: none;
+  justify-content: space-between;
+}
+
+.box .container .correctdemo .correctdemo-demo6 .correctdemo-demo-le .correctdemo-demo-le-bottom {
+  cursor: pointer;
+}
+
+.box .container .correctdemo .correctdemo-demo6 .correctdemo-demo-ri {
+  display: none;
+  width: 60%;
+}
+
+.box .container .correctdemo .correctdemo-demo6 .correctdemo-demo-ri {
+  width: 20%;
+  text-align: left;
+}
+
+.box .container .correctdemo .correctdemo-demo7 {
+  margin-left: 20rem;
+  width: 40%;
+  display: none;
+  justify-content: space-between;
+}
+
+.box .container .correctdemo .correctdemo-demo7 .correctdemo-demo-le .correctdemo-demo-le-bottom {
+  cursor: pointer;
+}
+
+.box .container .correctdemo .correctdemo-demo7 .correctdemo-demo-ri {
+  display: none;
+  width: 60%;
+}
+
+.box .container .correctdemo .correctdemo-demo7 .correctdemo-demo-ri {
+  width: 20%;
+  text-align: left;
+}
+
+.box .container .correctdemo .correctdemo-demo8 {
+  margin-left: 20rem;
+  width: 40%;
+  display: none;
+  justify-content: space-between;
+}
+
+.box .container .correctdemo .correctdemo-demo8 .correctdemo-demo-le .correctdemo-demo-le-bottom {
+  cursor: pointer;
+}
+
+.box .container .correctdemo .correctdemo-demo8 .correctdemo-demo-ri {
+  display: none;
+  width: 60%;
+}
+
+.box .container .correctdemo .correctdemo-demo8 .correctdemo-demo-ri {
+  width: 20%;
+  text-align: left;
+}
+
+.box .container .correctdemo .correctdemo-demo9 {
+  margin-left: 20rem;
+  width: 40%;
+  display: none;
+  justify-content: space-between;
+}
+
+.box .container .correctdemo .correctdemo-demo9 .correctdemo-demo-le .correctdemo-demo-le-bottom {
+  cursor: pointer;
+}
+
+.box .container .correctdemo .correctdemo-demo9 .correctdemo-demo-ri {
+  display: none;
+  width: 60%;
+}
+
+.box .container .correctdemo .correctdemo-demo9 .correctdemo-demo-ri {
+  width: 20%;
+  text-align: left;
+}
+
+.box .container .correctdemo .correctdemo-demo10 {
+  margin-left: 20rem;
+  width: 40%;
+  display: none;
+  justify-content: space-between;
+}
+
+.box .container .correctdemo .correctdemo-demo10 .correctdemo-demo-le .correctdemo-demo-le-bottom {
+  cursor: pointer;
+}
+
+.box .container .correctdemo .correctdemo-demo10 .correctdemo-demo-ri {
+  display: none;
+  width: 60%;
+}
+
+.box .container .correctdemo .correctdemo-demo10 .correctdemo-demo-ri {
+  width: 20%;
+  text-align: left;
+}
+
+.box .container .correctdemo .correctdemo-demo11 {
+  margin-left: 20rem;
+  width: 40%;
+  display: none;
+  justify-content: space-between;
+}
+
+.box .container .correctdemo .correctdemo-demo11 .correctdemo-demo-le .correctdemo-demo-le-bottom {
+  cursor: pointer;
+}
+
+.box .container .correctdemo .correctdemo-demo11 .correctdemo-demo-ri {
+  display: none;
+  width: 60%;
+}
+
+.box .container .correctdemo .correctdemo-demo11 .correctdemo-demo-ri {
+  width: 20%;
+  text-align: left;
+}
+
+.box .container .correctdemo .correctdemo-demo12 {
+  margin-left: 20rem;
+  width: 40%;
+  display: none;
+  justify-content: space-between;
+}
+
+.box .container .correctdemo .correctdemo-demo12 .correctdemo-demo-le .correctdemo-demo-le-bottom {
+  cursor: pointer;
+}
+
+.box .container .correctdemo .correctdemo-demo12 .correctdemo-demo-ri {
+  display: none;
+  width: 60%;
+}
+
+.box .container .correctdemo .correctdemo-demo12 .correctdemo-demo-ri {
+  width: 20%;
+  text-align: left;
+}
+
+.box .container .mouldcorrect {
+  width: 100%;
+  height: 60rem;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.box .container .mouldcorrect .mouldcorrect-bottom {
+  margin: 10rem auto;
+  margin-bottom: 20rem;
+  width: 80%;
+  height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box .container .mouldcorrect .mouldcorrect-bottom .divbox {
+  display: none;
+  width: 22%;
+  height: 15.67rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.box .container .mouldcorrect .mouldcorrect-bottom .divbox .text .text1 {
+  margin: 0 auto;
+  display: block;
+  width: 16rem;
+  height: 2rem;
+  font-size: 1.86rem;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: #4F4F4F;
+}
+
+.box .container .mouldcorrect .mouldcorrect-bottom .divbox .text .text2 {
+  margin: 0 auto;
+  display: block;
+  width: 16rem;
+  height: 5rem;
+  font-size: 2.47rem;
+  font-family: Source Han Sans CN;
+  font-weight: 800;
+  color: #43899F;
+}
+
+.box .container .smiletest {
+  margin-bottom: 3rem;
+}
+
+.box .container .smiletest .smiletest-humamimg {
+  position: relative;
+}
+
+.box .container .smiletest .smiletest-humamimg .smiletest-humamimg-box {
+  position: absolute;
+  text-align: center;
+  top: 16.83rem;
+  left: 43.17rem;
+  cursor: pointer;
+}
+
+.box .footer {
+  margin-top: 95px;
+  height: 300px;
+}

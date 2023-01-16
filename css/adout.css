@@ -1,0 +1,261 @@
+@charset "UTF-8";
+div {
+	line-height: normal;
+}
+
+.box {
+  overflow: hidden;
+}
+
+.box .container {
+  width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: url("../images/bgimg.png");
+  background-size: cover;
+}
+
+.box .container .smilesure {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.box .container .smilesure img {
+  margin-top: 257px;
+  margin-bottom: 226px;
+}
+
+.box .container .smilesure .smilesure-humam {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box .container .smilesure .smilesure-humam .smilesure-humam-le {
+  width: 760px;
+  height: 54.70rem;
+  position: relative;
+  left: -50rem;
+}
+
+.box .container .smilesure .smilesure-humam .smilesure-humam-le #a6 {
+  width: 1200px;
+  height: 865px;
+}
+
+.box .container .smilesure .smilesure-humam .smilesure-humam-le div {
+  position: relative;
+  top: -70rem;
+  left: 15rem;
+}
+
+.box .container .smilesure .smilesure-humam .smilesure-humam-ri {
+  width: 60.3rem;
+  height: 54.1rem;
+  margin-left: -0.5rem;
+}
+
+.box .container .smilesure .smilesure-humam .smilesure-humam-ri img {
+  width: 100%;
+  height: 54.1rem;
+}
+
+.box .container .toothmodel {
+  width: 80%;
+  height: 105.33rem;
+  margin: 0 auto;
+  margin-top: 20rem;
+  background: url(../images/紫色-背景.png) no-repeat center center;
+}
+
+.box .container .toothmodel .toothmodel-img {
+  margin: 0 auto;
+}
+
+.box .container .toothmodel .toothmodel-img img {
+  margin-top: 17rem;
+  width: 100%;
+}
+
+.box .container .toothmodel .toothmodel-text1 {
+  font-size: 3.33rem;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: #43899F;
+  margin-top: 3.87rem;
+  margin-bottom: 4.83rem;
+}
+
+.box .container .toothmodel .toothmodel-text2 {
+  font-size: 3.33rem;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: #3E3A39;
+  margin-bottom: 4rem;
+}
+
+.box .container .toothmodel .toothmodel-text3 {
+  font-size: 2.51rem;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: #3E3A39;
+  margin-bottom: 5.92rem;
+}
+
+.box .container .toothmodel .toothmodel-text4 {
+  font-size: 3.33rem;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: #43899F;
+}
+
+.box .container .socket {
+  width: 100%;
+  height: 28.33rem;
+  margin-bottom: 10rem;
+  background: url(../images/yd_abouttooth.png);
+  background-size: cover;
+}
+
+.box .container .socket .scoket-head {
+  width: 70%;
+  height: 26.9rem;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 8rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.box .container .socket .scoket-head .scoket-head-demo {
+  width: 21.33rem;
+  height: 11.33rem;
+}
+
+.box .container .socket .scoket-head .scoket-head-demo div {
+  text-align: center;
+}
+
+.box .container .smileagin {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box .container .smileagin .smileagin-le {
+  position: relative;
+  left: -50rem;
+}
+
+.box .container .smileagin .smileagin-ri {
+  font-size: 2.51rem;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: #3E3A39;
+  margin-top: 15rem;
+}
+
+.box .container .smileagin .smileagin-ri div {
+  margin-bottom: 10rem;
+}
+
+.box .container .smilehumam {
+  width: 100%;
+  display: flex;
+}
+
+.box .container .smilehumam .smilehumam-le {
+  width: 60%;
+  text-align: center;
+}
+
+.box .container .smilehumam .smilehumam-le .img1 {
+  display: none;
+  margin: 10rem auto;
+}
+
+.box .container .smilehumam .smilehumam-le .img1 img {
+  width: 159px;
+  height: 74px;
+}
+
+.box .container .smilehumam .smilehumam-le .text1 {
+  display: none;
+  width: 547px;
+  height: 180px;
+  font-size: 30px;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: #3E3A39;
+  line-height: 50px;
+  text-align: left;
+  margin-left: 305px;
+  margin-bottom: 113px;
+}
+
+.box .container .smilehumam .smilehumam-le .text2 {
+  width: 490px;
+  height: 180px;
+  font-size: 30px;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: #3E3A39;
+  line-height: 50px;
+  text-align: left;
+  margin-left: 718px;
+}
+
+.box .container .smilehumam .smilehumam-ri {
+  width: 40%;
+}
+
+.box .container .smilehumam .smilehumam-ri img {
+  margin-left: 50px;
+  width: 717px;
+  height: 1139px;
+}
+
+.box .container .banner {
+  width: 1248px;
+  height: 947px;
+  margin: 50px auto;
+}
+
+.box .container .banner .swiper .swiper-wrapper .swiper-slide {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box .container .banner .swiper .swiper-wrapper .swiper-slide .demo {
+  width: 372px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.box .container .banner .swiper .swiper-wrapper .swiper-slide .demo div:nth-of-type(1) {
+  width: 372px;
+  height: 200px;
+}
+
+.box .container .banner .swiper .swiper-wrapper .swiper-slide .demo div:nth-of-type(1) img {
+  width: 100%;
+  height: 100%;
+}
+
+.box .container .banner .swiper .swiper-wrapper .swiper-slide .demo div:nth-of-type(2) {
+  width: 372px;
+}
+
+.box .container .banner .swiper .swiper-wrapper .swiper-slide .demo div:nth-of-type(2) h2 {
+  text-align: center;
+}
+
+.box .container .footer {
+  margin-top: 95px;
+  height: 300px;
+}

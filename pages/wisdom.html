@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 12px;">
+
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/wisdom.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <title>智慧化牙套</title>
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="container">
+            <iframe scrolling="no" frameborder="no" border="0" src="../components/head.html" width="100%" height="100%"></iframe>
+            <div class="smile">
+                <img src="../images/smilesure.png" />
+            </div>
+            <div class="materials">
+                <div class="materials-le" id="materials-le">
+                    <img src="../images/semicircle.png" id="img" />
+                    <div class="materials-le-box">
+                        <div>
+                            <img src="../images/fenzi_1.png" id="a14" />
+                        </div>
+                        <div>
+                            <img src="../images/fenzi_2.png" class="imggo" />
+                            <img src="../images/fenzi_3.png" class="imggo2" />
+                        </div>
+                    </div>
+                </div>
+                <div class="materials-ri">
+                    <img src="../images/smile3.png">
+                </div>
+            </div>
+            <div class="statistics">
+                <img src="../images/biao_1.png" />
+            </div>
+            <div class="statistics2">
+                <img src="../images/biao_2.png" id="a20" />
+            </div>
+            <div class="wisdombuild">
+                <div class="wisdombuild-head">
+                    <img src="../images/wisdombuild.png" id="a15" />
+                    <div class="box">
+                        <video autoplay muted>
+
+              <source src="../images/video11.mp4" type="">
+            </video>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nohumam">
+                <img src="../images/nohumam.png" />
+            </div>
+            <div class="footer">
+                <iframe scrolling="no" frameborder="no" border="0" src="../components/footer.html" width='100%' height="100%"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.1/jquery.js"></script>
+<script>
+    $('.imggo2').click(function() {
+        window.location.href = '#a15'
+    });
+    $('.imggo').click(function() {
+        window.location.href = '#a20 '
+    });
+    window.onscroll = function() {
+        var t = document.documentElement.scrollTop || document.body.scrollTop;
+        var top_div = document.getElementById("top_div");
+        var show_semicircle = document.getElementsByClassName('show-semicircle');
+        if (t >= 700) {
+            var speed = 5
+            var cur = document.getElementById('materials-le').offsetLeft;
+            var timer = setInterval(function() {
+                if (cur > -15) {
+                    clearInterval(timer);
+                } else {
+                    cur += speed;
+                    document.getElementById('materials-le').style.left = speed + cur + "px";
+                }
+            }, -50);
+        }
+
+    }
+
+    function mobilePcRedirect() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+        if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+            window.location.href = '../ydpages/wisdom.html';
+        } else {
+
+        }
+    };
+    mobilePcRedirect()
+</script>
+
+</html>
